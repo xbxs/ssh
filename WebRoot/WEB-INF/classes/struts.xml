@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="users" extends="struts-default" namespace="/users">
+		<action name="*_*" class="action.{1}Action" method="{2}">
+			<result name="login_success">/users/main.jsp</result>
+			<result name="login_failure">/users/login.jsp</result>
+			<result name="loginout_success">/users/login.jsp</result>
+			<result name="input">/users/login.jsp</result>
+			<result name="modifypassword_success">/users/main.jsp</result>
+			<result name="modifypassword_failure">/users/changepassword.jsp</result>
+			
+		</action>
+	</package>
+	
+	<package name="students" extends="struts-default" namespace="/students">
+		<action name="*_*" class="action.{1}Action" method="{2}">
+			<result name="queryall_success">/students/student.jsp</result>
+			<result name="queryall_failure">/users/main.jsp</result>
+			<result name="add_success" type="chain">Students_query</result>
+			<result name="add_failure" >/students/add_student.jsp</result>
+			<result name="delete_success" type="chain">Students_query</result>
+			<result name="modify_success">/students/modify_student.jsp</result>
+			<result name="modify_failure" type="chain">Students_query</result>
+			<result name="save_success" type="chain">Students_query</result>
+			<result name="save_failure" type="chain">Students_query</result>
+			<result name="input">/users/login.jsp</result>
+		
+		
+		</action>
+	
+	</package>
+	
+	<package name="teachers" extends="struts-default" namespace="/teachers">
+		<action name="*_*" class="action.{1}Action" method = "{2}">
+			<result name="queryall_success">/teachers/teacher.jsp</result>
+			<result name="queryall_failure">/users/main.jsp</result>
+			<result name="modify_success">/teachers/modify_teacher.jsp</result>
+			<result name="modify_failure">/teachers/teacher.jsp</result>
+			<result name="add_success" type="chain">Teachers_query</result>
+			<result name="add_failure" >/teachers/add_teacher.jsp</result>
+			<result name="delete_success" type="chain">Teachers_query</result>
+			<result name="save_success" type="chain">Teachers_query</result>
+			<result name="queryteacherstudents_success">/teachers/teacher_students.jsp</result>
+			<result name="queryteacher_success">/teachers/teacher_introduce.jsp</result>
+			<result name="queryteacher_failure" type="chain">Students_query</result>
+			<result name="input">/users/login.jsp</result>
+		</action>
+	
+	</package>
+</struts>    

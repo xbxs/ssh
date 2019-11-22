@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="entity.Students" table="STUDENTS">
+		<id name="sid" type="java.lang.String" column="SID">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="sname" type="java.lang.String"/>
+		<property name="saddress" type="java.lang.String"/>
+		<property name="tid" type="java.lang.String"/>
+		
+	</class>
+
+</hibernate-mapping>

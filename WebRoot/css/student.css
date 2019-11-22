@@ -1,0 +1,99 @@
+a{
+	text-decoration: none;
+}
+.add p{
+	background-color: #85abac;
+	text-align: center;
+	color: white;
+	position: absolute;
+	width: 70%;
+	height: 40px;
+	top: 50px;
+	border-radius: 5px;
+	line-height:40px;
+	font-size: 50px
+}
+.add1{
+	background-color: #85abac;
+	text-align: center;
+	color: white;
+	position: absolute;
+	width: 70%;
+	height: 50px;
+	top: 370px;
+	border-radius: 5px;
+	line-height:50px;
+	font-size: 30px;
+	right:230px
+}
+.add2{
+	background-color: #85abac;
+	text-align: center;
+	color: white;
+	position: absolute;
+	width: 70%;
+	height: 50px;
+	top: 300px;
+	border-radius: 5px;
+	line-height:50px;
+	font-size: 30px;
+	right:230px
+}
+table{
+	width: 70%;
+	position: absolute;
+	top: 150px;
+	background-color: #85abac;
+	border: 1px solid white;
+	border-spacing: 0px;
+	text-align: center;
+	color: white;
+}
+.table1{
+	top: 50px;
+}
+tr,td{
+	border: 1px solid #fff;
+	height: 60px
+}
+.addin{
+	background: none;
+	border: none;
+	font-size: 20px;
+	height: 40px;
+	padding-top:20px;
+	color: #fff
+}
+.introduce{
+	width:800px;
+	text-align:left;
+}
+.pro{
+	position:absolute;
+	top:20px;
+	padding-left:450px;
+}
+.pro1{
+	position:absolute;
+	top:90px;
+	padding-left:550px;
+}
+.ppp{
+	width:550px;
+}
+h2{
+	text-align:center;
+	poaition:absolute;
+	margin-top:70px;
+	background:#85abac;
+	color:white;
+	line-height:50px
+}
+.sc{
+	width: 20px;
+	height: 25px
+}
+.bj{
+	width: 30px;
+	height: 30px
+}

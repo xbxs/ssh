@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+#banner{
+	background: #85abac;
+	height: 12%;
+	overflow: hidden;	
+	position: relative;
+}
+#banner p{
+	color: white;
+}
+.p1{
+	letter-spacing: 12px
+}
+.p2{
+	letter-spacing: 0.1px;
+	padding-top: 5px
+}
+#banner1{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.headline{
+	float: left;
+	width: 50%;
+	padding-left:200px;
+	padding-top:1.5%;
+	position: absolute;
+}
+.logo{
+	width: 65px;
+	height: 50px;
+	float: left;
+	/*margin-top: 10px*/
+}
+.right1{
+	float: left;
+	padding-top: 2%;
+	position: absolute;
+	right:250px;
+	color: white
+}
+.right1 a{
+	color: white;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.right{
+	float: left;
+	padding-top: 2%;
+	position: absolute;
+	right: 230px
+}
+.right p{
+	font-weight: bold;
+	font-size:20px;
+}
+#content{
+	background: #c5e3e5;
+	height: 75%;
+	position: relative;
+}
+#content1{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.hint{
+	float: left;
+	width: 55%;
+	padding-top: 40px;
+	position: absolute;
+}
+.p3,.p4{
+	text-align: center;
+}
+.p3{
+	font-size: 25px
+}
+.p4{
+	font-size: 20px;
+}
+.one{
+	padding-top: 30px;
+}
+.login{
+	float: left;
+	width: 45%;
+	/*background: url(img/heiban.jpg);*/
+	margin-top:35px;
+	background-repeat: no-repeat;
+	height: 400px;
+	position: absolute;
+	right: 0px;
+
+}
+.bgimg{
+	float: left;
+	width: 650px;
+	height: 480px;
+	clear: both;
+}
+.denglu{
+	position: absolute;
+	left: 200px;
+	top: 160px
+}
+
+.title{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+	letter-spacing: 20px;
+	margin-left: 20px
+}
+input{
+	width: 240px;
+	height: 35px;
+	margin-bottom: 30px;
+	margin-left: 20px
+}
+.denglu input{
+	border: 1px solid #85abac;
+}
+.img1{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: -30px
+}
+.nameimg img{
+	width: 50px;
+	height: 40px
+}
+.pswordimg img{
+	width: 30px;
+	height: 40px;
+	padding-left:10px
+}
+.submit{
+	background-color: #c5e3e5;
+	color: white;
+	width: 130px;
+	height: 40px;
+	border-radius: 5px;
+	position: absolute;
+	left: 50px;
+	font-size: 20px;
+}
+.submit:hover{
+	background-color: #85abac;
+}
+#bottom{
+	background: #85abac;
+	height: 7%;
+	text-align: center;	
+	padding-top: 3%;
+	color:white;
+	font-size: 20px
+}
+.aaa{
+	color:white;
+	font-weight:bold;
+}

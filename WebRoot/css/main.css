@@ -1,0 +1,39 @@
+a{
+	text-decoration: none;
+	color: #85abac;
+	/*color: #000;*/
+}
+.button{
+	float: left;
+	width: 30%;
+	padding-top: 10px;
+	position: absolute;
+	right: 100px;
+}
+.button p{
+	transition: all 0.5s ease 0s;
+}
+.button p:hover{  
+	transform: scale(1.2);   /*transition: all 2s ease-in-out 0s;*/  
+}
+.student,.teacher{
+	/*background-color: #85abac;*/
+	width: 200px;
+	height:200px;
+	border-radius: 10px;
+	margin-top: 30px
+}
+.bgimg1{
+	float: left;
+	width: 320px;
+	height: 230px;
+	clear: both;
+}
+.button p{
+	position: absolute;
+	left: 95px;
+	margin-top: 110px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	font-weight: bold;
+}

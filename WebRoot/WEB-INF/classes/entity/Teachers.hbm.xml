@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="entity.Teachers" table="TEACHERS">
+		<id name="tid" type="java.lang.String" column="TID">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="tname" type="java.lang.String"/>
+		<property name="tposition" type="java.lang.String"/>
+		<property name="tsubject" type="java.lang.String"/>
+		
+	</class>
+
+</hibernate-mapping>
